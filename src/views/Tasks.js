@@ -2,6 +2,7 @@ import React from "react";
 import Tasks from "../components/TasksList";
 
 const api = process.env.API_URL || "https://localhost:600/api";
+console.log("APi consultada: ", api);
 
 class Home extends React.Component {
   state = {
